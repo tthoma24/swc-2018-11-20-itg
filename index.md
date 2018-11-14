@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "CU, Uris Hall"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "Columbia Business School"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Uris Hall 8th Floor Conf. Room, 3022 Broadway, New York, NY 10027"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
@@ -189,8 +189,8 @@ and our administrator may contact you if we need any extra information.</h4>
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "swc" %} 
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="{{ site.swc_pre_survey }}">Pre-workshop Survey</a></p>
+<p><a href="{{ site.swc_post_survey }}">Post-workshop Survey</a></p>
 {% elsif site.carpentry == "dc" %}
 <p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
