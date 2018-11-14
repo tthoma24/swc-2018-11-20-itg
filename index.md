@@ -1,15 +1,15 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "CU, Uris Hall Room 305"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "3022 Broadway, Uris Hall Room 305, New York, NY 10027"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+venue: "CU, Uris Hall"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "Uris Hall 8th Floor Conf. Room, 3022 Broadway, New York, NY 10027"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "40.808956,-73.961292"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "Fri, Nov 16th and Tues, Nov 20th, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Fri, Nov 16th, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "12:00 pm - 2:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-11-16      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2018-11-20        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+enddate: 2018-11-16        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Teddy Thomas"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 email: ["tthoma24@columbia.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://docs.google.com/document/d/1R1gzEm3eKq41K5t27lynLOlhL15JkFhgXgVJrtnYYu4/edit?usp=sharing            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
