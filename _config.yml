@@ -10,7 +10,7 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "Workshop Title"
+title: "Git Version Control training"
 
 
 #------------------------------------------------------------
@@ -48,8 +48,8 @@ workshop_repo: "https://github.com/carpentries/workshop-template"
 workshop_site: "https://carpentries.github.io/workshop-template"
 
 # Surveys.
-swc_pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="
-swc_post_survey: "https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id="
+swc_pre_survey: "https://goo.gl/forms/u2qnJjbyTjwWJ3XQ2"
+swc_post_survey: "https://goo.gl/forms/eGVyxXa7DlUFpFqx2"
 training_post_survey: "https://www.surveymonkey.com/r/post-instructor-training"
 dc_pre_survey: "https://www.surveymonkey.com/r/dcpreworkshopassessment?workshop_id="
 dc_post_survey: "https://www.surveymonkey.com/r/dcpostworkshopassessment?workshop_id="
