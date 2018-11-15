@@ -45,11 +45,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
-
 <h2 id="general">General Information</h2>
 
 {% comment %}
@@ -107,7 +102,7 @@ and our administrator may contact you if we need any extra information.</h4>
 {% if page.humandate %}
 <p id="when">
   <strong>When:</strong>
-  {{page.humandate}}.
+  {{page.humandate}} {{page.humantime}}.
   {% include workshop_calendar.html %}
 </p>
 {% endif %}
@@ -121,15 +116,7 @@ and our administrator may contact you if we need any extra information.</h4>
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
-  {% if page.carpentry == "swc" %}
-  Software Carpentry's
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry's
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry's
-  {% endif %}
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  <a href="#setup">below</a>).
 </p>
 
 {% comment %}
@@ -150,9 +137,9 @@ and our administrator may contact you if we need any extra information.</h4>
 <p>
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
+  organizers in advance. A recording will be provided to participants
+  a few days after the workshop. If we can help making learning easier for
+  you, please get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
 
@@ -209,7 +196,7 @@ and our administrator may contact you if we need any extra information.</h4>
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
 {% endcomment %}
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Schedule & Syllabus</h2>
 
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
@@ -253,16 +240,11 @@ and our administrator may contact you if we need any extra information.</h4>
   This is one of the places where people frequently make mistakes, so
   please preview your site before committing, and make sure to run
   'tools/check' as well.
-{% endcomment %}
-<h2 id="syllabus">Syllabus</h2>
 
-{% if page.carpentry == "swc" %}
-  {% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/syllabus.html %}
-{% endif %}
+Removed -TJT
+
+{% endcomment %}
+
 
 <hr/>
 
@@ -281,15 +263,7 @@ and our administrator may contact you if we need any extra information.</h4>
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
-  {% if page.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
+  To participate in this  workshop,
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
